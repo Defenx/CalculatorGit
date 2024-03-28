@@ -1,13 +1,10 @@
 public class Calculator {
+<<<<<<<<< Temporary merge branch 1
     int add(int a, int b) {
         return a + b;
-    }
-
-    double divide (int a, int b) {
-        try {
-            return a / b;
-        } catch (Exceprion e) {
-            System.out.println(e);
-        }
+=========
+    public double devide (int a, int b) {
+        return a / b;
+>>>>>>>>> Temporary merge branch 2
     }
 }
